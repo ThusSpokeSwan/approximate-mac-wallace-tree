@@ -1,24 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
+// Project Name: Approximate MAC using Wallace Tree Multiplier
+// Author: Hans Raj
 // Create Date: 03.03.2026 23:54:55
-// Design Name: 
 // Module Name: pp_generator
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
+// Tools: Xilinx Vivado 
+// Description: Partial product generator used by Wallace tree multiplier.
+// pp[i][j] = A[j] & B[i];
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module pp_generator(
     input wire [7:0] A,
