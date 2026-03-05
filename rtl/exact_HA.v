@@ -1,24 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+// Project: Approximate MAC using Wallace Tree Multiplier
+// Author: Hans Raj
 // Create Date: 03.03.2026 23:52:38
-// Design Name: 
 // Module Name: exact_HA
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Description: Exact half adder used in Wallace tree reduction stage
+//  S = A ^ B ;
+// Cout = A & B;
+// Tools: Xilinx Vivado
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module exact_HA(
     input wire A,
