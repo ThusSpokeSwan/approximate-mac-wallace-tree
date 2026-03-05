@@ -1,22 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+// Project: Approximate MAC using Wallace Tree Multiplier
+// Author: Hans Raj
 // Create Date: 03.03.2026 23:50:52
-// Design Name: 
 // Module Name: exact_FA
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Description: Exact full adder used in Wallace tree reduction stage
+//  S = A ^ B ^ C;
+// Cout = (A & B) | (B & C) | (A & C);
+// Use in MSB columns for accuracy.
+// Tools: Xilinx Vivado
+//
 //////////////////////////////////////////////////////////////////////////////////
 
 
