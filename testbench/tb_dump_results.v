@@ -1,24 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
+// Project Name: Approximate MAC using Wallace Tree Multiplier
+// Author: Hans Raj
 // Create Date: 05.03.2026 14:54:37
-// Design Name: 
 // Module Name: tb_dump_results
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
+// Tools: Xilinx Vivado 
+// Description: Used to generate results.txt file containing all the multiplier outputs.
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module tb_dump_results;
 
