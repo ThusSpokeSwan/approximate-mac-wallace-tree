@@ -1,24 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+// Project: Approximate MAC using Wallace Tree Multiplier
+// Author: Hans Raj
 // Create Date: 04.03.2026 00:23:21
-// Design Name: 
-// Module Name: wallace_tree
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Module: wallace_tree
+// Description:
+// 8x8 Wallace tree multiplier implementing hybrid partial product reduction.
+// Columns 0–7 use approximate full adders, while higher columns use exact
+// adders to limit numerical error.
+//
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module wallace_tree(
     input wire [7:0] A,
