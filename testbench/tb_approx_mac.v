@@ -1,24 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
+// Project Name: Approximate MAC using Wallace Tree Multiplier
+// Author: Hans Raj
 // Create Date: 05.03.2026 11:40:46
-// Design Name: 
 // Module Name: tb_approx_mac
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
+// Tools: Xilinx Vivado 
+// Description: Testbench for approx_mac module.
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module tb_approx_mac;
 
