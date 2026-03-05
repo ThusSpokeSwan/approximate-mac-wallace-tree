@@ -1,21 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
+// Project Name: Approximate MAC using Wallace Tree Multiplier
+// Author: Hans Raj
 // Create Date: 05.03.2026 11:30:43
-// Design Name: 
-// Module Name: approx_mac
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
+// Module Name: approx_MAC
+// Tools: Xilinx Vivado 
+// Description: Approximate MAC unit utilizing Wallace Tree multiplier and Approximate adders.
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
